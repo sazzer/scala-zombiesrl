@@ -10,6 +10,7 @@
   <name>Zombies Roguelike</name>
   <modules>
       <module>app</module>
+      <module>ui</module>
   </modules>
   <inceptionYear>2014</inceptionYear>
   <developers>
@@ -77,6 +78,12 @@
           <groupId>org.eintr.loglady</groupId>
           <artifactId>loglady_2.10</artifactId>
           <version>1.1.0</version>
+      </dependency>
+      <!-- UI -->
+      <dependency>
+        <groupId>com.googlecode.lanterna</groupId>
+        <artifactId>lanterna</artifactId>
+        <version>2.1.8</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

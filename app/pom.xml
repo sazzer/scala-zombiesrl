@@ -12,6 +12,11 @@
   <packaging>jar</packaging>
   <name>Zombies Roguelike - Application</name>
   <dependencies>
+    <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>zombiesrl-ui-lanterna</artifactId>
+        <version>${project.version}</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
