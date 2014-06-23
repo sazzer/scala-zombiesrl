@@ -16,6 +16,12 @@
         <groupId>${project.groupId}</groupId>
         <artifactId>zombiesrl-ui-lanterna</artifactId>
         <version>${project.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>zombiesrl-ui-api</artifactId>
+        <version>${project.version}</version>
     </dependency>
   </dependencies>
   <build>

@@ -6,14 +6,13 @@
   <parent>
       <groupId>uk.co.grahamcox.zombiesrl</groupId>
       <version>1.0-SNAPSHOT</version>
-      <artifactId>zombiesrl</artifactId>
+      <artifactId>zombiesrl-ui</artifactId>
   </parent>
-  <artifactId>zombiesrl-ui</artifactId>
-  <packaging>pom</packaging>
-  <name>Zombies Roguelike - User Interfaces</name>
-  <modules>
-      <module>api</module>
-      <module>lanterna</module>
-  </modules>
+  <artifactId>zombiesrl-ui-api</artifactId>
+  <packaging>jar</packaging>
+  <name>Zombies Roguelike - UI API</name>
+  <dependencies>
+  </dependencies>
 </project>
+
 

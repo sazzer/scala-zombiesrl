@@ -13,6 +13,11 @@
   <name>Zombies Roguelike - Lanterna UI</name>
   <dependencies>
     <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>zombiesrl-ui-api</artifactId>
+        <version>${project.version}</version>
+    </dependency>
+    <dependency>
       <groupId>com.googlecode.lanterna</groupId>
       <artifactId>lanterna</artifactId>
     </dependency>
