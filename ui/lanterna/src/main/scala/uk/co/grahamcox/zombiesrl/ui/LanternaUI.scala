@@ -12,7 +12,13 @@ class LanternaUI extends UI {
   private val screen = TerminalFacade.createScreen(terminal)
 
   screen.startScreen()
-  terminal.clearScreen()
-  terminal.flush()
-  Thread.sleep(10000)
+  terminal.enterPrivateMode()
+
+  /**
+   * Stop the UI
+   */
+  def stop() = {
+    terminal.exitPrivateMode()
+    screen.stopScreen()
+  }
 }

@@ -9,5 +9,7 @@ import uk.co.grahamcox.zombiesrl.ui.LanternaUI
 object Application extends App with Logging {
   log.info("Starting ZombiesRL")
   val ui = new LanternaUI
+  Thread.sleep(10000)
+  ui.stop()
   log.info("Stopping ZombiesRL")
 }
